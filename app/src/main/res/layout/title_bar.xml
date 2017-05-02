@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#FF69B4">
+<Button
+    android:id="@+id/title_bt"
+    android:layout_width="70dp"
+    android:layout_height="45dp"
+    android:layout_gravity="center"
+    android:text="编辑"
+    android:textColor="@color/colorPrimary"
+    android:background="#FF69B4"
+    android:textSize="20dp"
+    />
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="联系人"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        />
+    <ImageButton
+        android:id="@+id/title_ib"
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/tianjia2"
+        android:background="#FF69B4"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        />
+</LinearLayout>
